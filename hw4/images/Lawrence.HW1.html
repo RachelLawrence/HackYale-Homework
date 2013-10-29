@@ -1,0 +1,502 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0092)https://classesv2.yale.edu/portal/site/biol102_f13/page/7c9a0581-d71a-4c19-a546-5ff61b0d2b7a -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- START from includeStandardHead.vm -->
+	
+        <meta http-equiv="Content-Style-Type" content="text/css">
+
+<!-- this causes problems for layout needs investigating -->
+    <link href="./Lawrence.HW1_files/portalstyles.css" type="text/css" rel="stylesheet" media="all">
+
+<link href="./Lawrence.HW1_files/portal.css" type="text/css" rel="stylesheet" media="all">
+
+
+    <title>Classes*v2 : BIOL 102 01 (F13) : Assignments</title>
+<link href="./Lawrence.HW1_files/tool_base.css" type="text/css" rel="stylesheet" media="all">
+<link href="./Lawrence.HW1_files/tool.css" type="text/css" rel="stylesheet" media="all">
+
+     <script type="text/javascript" language="JavaScript" src="./Lawrence.HW1_files/jquery.js"></script>
+     <script type="text/javascript" language="JavaScript" src="./Lawrence.HW1_files/headscripts.js"></script>
+
+<script type="text/javascript" language="JavaScript" src="./Lawrence.HW1_files/portalscripts.js"></script>
+
+<script type="text/javascript" language="JavaScript">
+    setLoginStatus (true, "https://classesv2.yale.edu/portal", "https://classesv2.yale.edu/cmi/logout.html", "873f5000-3d9e-4d6d-b4ae-8b1a5e25f017", "rsl42");
+    setTimeoutInfo (true, 600);
+    setUIToggleState (true, true, false);
+</script>
+<script type="text/javascript" language="JavaScript" src="./Lawrence.HW1_files/kaltura-display.js"></script> 
+</head>
+<!-- END from includeStandardHead.vm -->
+<body class="portalBody">
+	<script type="text/javascript" language="JavaScript">
+	var sakaiPortalWindow = "";
+	</script>
+	<script type="text/javascript" src="./Lawrence.HW1_files/jquery.fancybox-1.3.4.js"></script>
+	<link rel="stylesheet" type="text/css" href="./Lawrence.HW1_files/jquery.fancybox-1.3.4.css" media="screen">
+<!-- END Header -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        var toggleClass=""
+                    toggleClass="toggleTools"
+                        $('#toggler').css({'display' : 'none'});
+        $('#toggler').addClass(toggleClass)
+		$('#toggler').html('');
+        $('#toggleToolMenu').click(function(){
+            if ( $('#toggleNormal').is(':visible') ) {
+                sakaiRestoreNavigation();	
+                document.cookie = "sakai_nav_minimized=false; path=/";
+            } else {
+                sakaiMinimizeNavigation();
+                document.cookie = "sakai_nav_minimized=true; path=/";
+            }
+        });
+      
+    $('#yaleleftnavheader img').attr('src', '');
+    });
+    
+    function moveLeftLinksTop(){
+    $('#toolMenuWrap').css('display', 'none');
+    
+	  var newUl = $('<ul id="toolMenu2" class="landing_page" role="menu"></ul>');
+	
+	
+	  
+	   $('#toolMenu ul > li a').each(function(index, ele) {
+     	  var newLi =$(ele).parent();//$('<li></li>');
+     	  if (index ==0){
+     	     newLi = $('<li class="firstToolBarItem" role="menuitem"></li>');
+     	   }
+     	   else{
+     	    newLi = $('<li role="menuitem"></li>');
+     	   
+     	   }
+     	   
+     	   newLi =$(ele).parent();
+	
+		  $(newUl).append((newLi));
+	
+      });
+	  
+	  $('#col1 .portletTitleWrap .portletTitle:first').prepend(newUl);		
+	  $('#content').css('margin-left', '7px');	
+    }
+    
+    function missingImg(ele){
+      $(ele).css('display', 'none');
+      ele.onerror="";
+    }
+    
+    var workspaceAlerted = false;
+</script>
+<!-- site.vm -->
+
+<!-- start includeSiteNav -->
+<div id="portalOuterContainer">
+        <div id="portalContainer">
+		<div id="skipNav">
+		
+			<a href="https://classesv2.yale.edu/portal/site/biol102_f13/page/7c9a0581-d71a-4c19-a546-5ff61b0d2b7a#tocontent" class="skip" title="jump to content" accesskey="c">
+			jump to content
+			</a>
+			<a href="https://classesv2.yale.edu/portal/site/biol102_f13/page/7c9a0581-d71a-4c19-a546-5ff61b0d2b7a#totoolmenu" class="skip" title="jump to tools list" accesskey="l">
+				jump to tools list
+			</a>
+			<a href="https://classesv2.yale.edu/portal/site/biol102_f13/page/7c9a0581-d71a-4c19-a546-5ff61b0d2b7a#sitetabs" class="skip" title="jump to worksite list" accesskey="w">
+				jump to worksite list
+			</a>
+		</div>
+				<div id="headerMax">
+			<div id="siteNavWrapper" class="course">
+				<div id="mastHead">
+					<div id="mastLogo">
+						<img title="Logo" alt="Logo" src="./Lawrence.HW1_files/internal_v2_logo.png">
+					</div>
+					<div id="mastBanner">
+						<img title="Banner" alt="Banner" src="./Lawrence.HW1_files/banner_inst.gif">
+					</div>
+					<!-- login component a-->
+					<div id="mastLogin">
+											<div id="loginLinks">
+												                                                        
+						    	<div class="logout">
+                                    <a href="https://classesv2.yale.edu/portal/logout" title="Logout" id="loginLink1">Logout</a>
+                                 </div>
+                                                        												</div>
+										</div>
+					<!-- end login component -->
+				</div>
+			</div>
+
+		</div>
+
+
+<!-- START from includeTabs.vm -->
+			<!-- start includeTabs -->
+			<div class="siteNavWrap course">
+				<div id="siteNav">
+					<div id="linkNav">
+						<a id="sitetabs" class="skip" name="sitetabs"></a>
+							<h1 class="skip">Worksites begin here</h1>
+							<ul id="siteLinkList">
+																												<li style="z-index: 0;"><a href="https://classesv2.yale.edu/portal/site/~rsl42" title="my*workspace"><span>my*workspace</span></a></li>
+																																											<li style="z-index: 0;"><a href="https://classesv2.yale.edu/portal/site/scie198_f12" title="PerspectvesOnScience&amp;Engneerng"><span>		  		  					
+		SCIE 198 01 (F12)
+</span></a></li>
+																																											<li style="z-index: 0;"><a href="https://classesv2.yale.edu/portal/site/64ee43c6-4bf8-4b6b-9258-79374c54461a" title="Placement test"><span>		  		  					
+		Spanish Placement
+</span></a></li>
+																																											<li style="z-index: 0;"><a href="https://classesv2.yale.edu/portal/site/amth244_f13" title="Discrete Mathematics"><span>		  		  					
+		AMTH 244 01 / MATH 24 ...
+</span></a></li>
+																																											<li class="selectedTab" style="z-index: 0;"><a href="https://classesv2.yale.edu/portal/site/biol102_f13/page/7c9a0581-d71a-4c19-a546-5ff61b0d2b7a#"><span>		  		  					
+		BIOL 102 01 (F13)
+</span></a></li>
+																																		<li class="more-tab" style="z-index: 0;"><a href="https://classesv2.yale.edu/portal/site/biol102_f13/page/7c9a0581-d71a-4c19-a546-5ff61b0d2b7a#" onclick="return dhtml_more_tabs();" title="- more -"><span class="outer"><span class="inner">My Active Sites</span></span></a></li>
+												</ul>
+					</div> <!-- /linkNav -->
+
+										
+																			</div>
+				<div class="divColor" id="tabBottom">
+				</div>
+					
+
+								<div id="selectNav" style="display:none">
+					<div>
+						<span class="skip">To operate the combo box, first press Alt+Down Arrow to open it, and then use the up and down arrow keys to scroll through the options.</span>
+
+											<div class="termContainer">
+   													<h4>FALL 2013</h4>
+													<ul>
+																					<li><a href="https://classesv2.yale.edu/portal/site/amth244_f13" title="Discrete Mathematics">
+									<span>		  		  					
+		AMTH 244 01 / MATH 24 ...
+</span>
+								</a></li>
+																												<li><a href="https://classesv2.yale.edu/portal/site/biol102_f13" title="Cell Bio &amp; Membrane Physiology">
+									<span>		  		  					
+		BIOL 102 01 (F13)
+</span>
+								</a></li>
+																												<li><a href="https://classesv2.yale.edu/portal/site/chem220_f13" title="Organic Chemistry">
+									<span>		  		  					
+		CHEM 220 01 (F13)
+</span>
+								</a></li>
+																												<li><a href="https://classesv2.yale.edu/portal/site/chem222l_f13" title="Lab for Organic Chemistry I">
+									<span>		  		  					
+		CHEM 222L 01 (F13)
+</span>
+								</a></li>
+																												<li><a href="https://classesv2.yale.edu/portal/site/engl11504_f13" title="Literature Seminars">
+									<span>		  		  					
+		ENGL 115 04 (F13)
+</span>
+								</a></li>
+																												<li><a href="https://classesv2.yale.edu/portal/site/plsc344_f13" title="Game Theory&amp; Political Science">
+									<span>		  		  					
+		PLSC 344 01 / PLSC 52 ...
+</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>SPRING 2013</h4>
+													<ul>
+																					<li><a href="https://classesv2.yale.edu/portal/site/scie199_s13" title="PerspectvesOnScience&amp;Engneerng">
+									<span>		  		  					
+		SCIE 199 01 (S13)
+</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>FALL 2012</h4>
+													<ul>
+																					<li><a href="https://classesv2.yale.edu/portal/site/scie198_f12" title="PerspectvesOnScience&amp;Engneerng">
+									<span>		  		  					
+		SCIE 198 01 (F12)
+</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>SPRING 2012</h4>
+													<ul>
+																					<li><a href="https://classesv2.yale.edu/portal/site/64ee43c6-4bf8-4b6b-9258-79374c54461a" title="Placement test">
+									<span>		  		  					
+		Spanish Placement
+</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>FALL 2010</h4>
+													<ul>
+																					<li><a href="https://classesv2.yale.edu/portal/site/enas194_f10" title="Ordinary&amp;PrtialDiffrntlEquatns">
+									<span>		  		  					
+		ENAS 194 01 (F10)
+</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>PROJECTS</h4>
+													<ul>
+																					<li><a href="https://classesv2.yale.edu/portal/site/da1d2f4d-8e69-4193-b6ef-5a60987b5e4f" title="CEID">
+									<span>				
+		CEID
+</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>OTHER</h4>
+													<ul>
+																					<li><a href="https://classesv2.yale.edu/portal/site/~rsl42" title="my*workspace">
+									<span>my*workspace</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div id="more_tabs_instr"><em>Hidden Sites</em> are not included in this menu. Access them in my*workspace -&gt; Worksite Setup.<br> To hide a site, go to my*workspace -&gt; Preferences -&gt; Customize Tabs.</div>
+					</div> <!-- /  -->
+				</div> <!-- /selectNav -->
+					
+			</div> <!-- /tabsCssClass -->
+				 									 									 									 									 					    					  									<!-- end includeTabs -->
+<!-- END from includeTabs.vm -->
+	
+		  				
+					  		
+<!-- START from includePageWithNav.vm -->
+	<div id="container" class="course">
+	
+<!-- START from includePageNav.vm -->
+		<!-- start includePageNav -->
+			<div class="divColor" id="toolMenuWrap">
+			
+				<div id="worksiteLogo">
+			                        								<p id="siteType">course</p>
+										</div>
+                        				<a id="totoolmenu" class="skip" name="totoolmenu"></a>
+				<h1 class="skip">Tools begin here</h1>
+				<div id="toolMenu">
+					<ul>
+					 <!-- removed by James: li id="yaleleftnavheader"><img src="/library/skin/yaleleftnav/images/nav_header.gif" alt="" /></li -->
+					  				  			 						<li>
+							<a class="icon-sakai-iframe-site " href="https://classesv2.yale.edu/portal/site/biol102_f13/page/af6e4ad2-35d2-419a-b4db-59044d6ef646" title="For displaying Site information | Display recent announcements, updated as messages arrive | Show a summary of schedule events in My Workspace"><span>Home</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-syllabus " href="https://classesv2.yale.edu/portal/site/biol102_f13/page/f7ec499a-36ef-449d-97ec-c056290ad1b3" title="For posting a summary outline and/or requirements for a site"><span>Syllabus</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-schedule " href="https://classesv2.yale.edu/portal/site/biol102_f13/page/7bfc6f69-da8d-447e-842b-17e3954f61cc" title="For posting and viewing deadlines, events, etc."><span>Schedule</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-signup " href="https://classesv2.yale.edu/portal/site/biol102_f13/page/e9482a8d-fa4f-45b5-89b0-5e098fe8760b" title="For enabling online registration for meetings and other events."><span>Sign-up</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-announcements " href="https://classesv2.yale.edu/portal/site/biol102_f13/page/40e14260-8768-4862-a8d2-b8aa3857ae6d" title="For posting current, time-critical information"><span>Announcements</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-resources " href="https://classesv2.yale.edu/portal/site/biol102_f13/page/42e13d28-20cd-4f4b-8207-56496abada2e" title="For posting documents, URLs to other websites, etc."><span>Resources</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-dropbox " href="https://classesv2.yale.edu/portal/site/biol102_f13/page/eede1bc1-6831-47ab-bfc2-766b7436d39c" title="For private file sharing between instructor and student"><span>Drop Box</span></a>
+						</li>
+		   					  							  								<li class="selectedTool">
+						<a class="icon-sakai-assignment-grades"><span>Assignments</span></a>
+						</li>
+		  							  				  			 						<li>
+							<a class="icon-sakai-gradebook-tool " href="https://classesv2.yale.edu/portal/site/biol102_f13/page/abcf35cd-4246-4c37-a877-e21d0b8e24e5" title="For storing and computing assessment grades from Tests &amp; Quizzes or that are manually entered"><span>Gradebook</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-siteinfo " href="https://classesv2.yale.edu/portal/site/biol102_f13/page/d38b8610-0b22-4e0d-b785-36e1da7ba136" title="For showing worksite information and site participants"><span>Site Info</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-courseReserves " href="https://classesv2.yale.edu/portal/site/biol102_f13/page/65703545-1112-4cb2-a0e4-9cd2c47bcfab" title="Request, manage, and monitor print and electronic reserve materials"><span>Course Reserves</span></a>
+						</li>
+		   					  														 <li>
+								<a class="icon-sakai-help" accesskey="6" href="http://help.classesv2.yale.edu/" target="_blank" onclick="openWindow(&#39;http://help.classesv2.yale.edu&#39;, 
+									&#39;Help&#39;, &#39;resizable=yes,toolbar=no,scrollbars=yes,menubar=yes,width=800,height=600&#39;); 
+									return false" title="Help">
+									<span>Help</span>
+								</a>
+						 </li>
+								</ul>
+				</div>
+				
+			<!-- Add subsite lists -->
+									</div>
+			<h1 class="skip">Content begins here</h1>
+			<a id="tocontent" class="skip" name="tocontent" href="https://classesv2.yale.edu/portal/site/biol102_f13/page/7c9a0581-d71a-4c19-a546-5ff61b0d2b7a#"></a>
+		<!-- end includePageNav -->
+		<!-- end page nav -->
+<!-- END from includePageNav.vm -->
+
+
+	
+<!-- START from includePageBody.vm -->
+
+		<a id="innerAlertMessage" style="display:none;" href="https://classesv2.yale.edu/cmi/cmi2?t=2"></a>
+					<div id="content">
+						<div id="col1">
+												<!-- start Tool -->
+													
+														<div class="portletTitleWrap">
+							   <div class="portletTitle">
+									<div class="title">
+																			                <a href="https://classesv2.yale.edu/portal/tool-reset/273fa2b4-9908-4a18-8356-29c616da5cba/?panel=Main" target="Main273fa2b4x9908x4a18x8356x29c616da5cba" title="Reset">
+						                        <img src="./Lawrence.HW1_files/transparent.gif" alt="Reset" border="1"></a>
+																<h2 id="Assignments">Assignments</h2>
+									</div>
+									<div class="action">
+																											<a href="http://help.classesv2.yale.edu/tools/assignment" title="Help for Assignments" target="_blank" onclick="openWindow(&#39;http://help.classesv2.yale.edu/tools/assignment&#39;, &#39;Help&#39;,
+								  &#39;resizable=yes,toolbar=no,scrollbars=yes,menubar=yes,width=800,height=600&#39;); return false">
+																<img src="./Lawrence.HW1_files/transparent.gif" alt="Help for Assignments" border="0">Help</a>
+															</div>
+								</div>
+							</div>
+											<!-- end Tool -->
+					<!-- start Tool Body -->						
+													<div class="portletMainWrap">
+							    <iframe name="Main273fa2b4x9908x4a18x8356x29c616da5cba" id="Main273fa2b4x9908x4a18x8356x29c616da5cba" title="Assignments " class="portletMainIframe" height="475" width="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="auto" src="./Lawrence.HW1_files/273fa2b4-9908-4a18-8356-29c616da5cba.html" style="height: 794px;">
+</iframe>
+							</div>
+											<!-- end Tool Body -->												
+											</div>
+						</div>
+			<div>
+			<!-- include bottom -->
+																								<div id="footer">
+							<div class="footerExtNav">
+				<p>Materials on University course and project sites may be subject to copyright protection, and may be restricted from further dissemination, 
+					retention or copying. Unauthorized use of copyrighted materials is subject to disciplinary action pursuant to the University's policy 
+					against copyright infringement, and to civil and criminal liability provided under federal copyright law. 
+                 </p>
+					<ul id="footerLinks"><li><span><a href="http://www.yale.edu/">Yale University</a></span></li><li><span><a href="http://www.yale.edu/sfas/registrar/">Registrar's Office</a></span></li><li><span><a href="http://www.yale.edu/library">Yale Library</a></span></li></ul>
+				</div>
+				<div id="footerInfo">
+								<a href="http://sakaiproject.org/" target="_blank">
+					 <img border="0" src="./Lawrence.HW1_files/sakai_powered.gif" alt="Powered by Sakai">
+					 <span class="skip"> (Opens in a new window)</span>
+					</a>
+						<!-- end include Bottom -->
+				</div>
+				<div class="sakaiCopyrightInfo">Copyright 2003-2011 The Sakai Foundation. All rights reserved. Portions of Sakai are copyrighted by other parties as described in the Acknowledgments screen.<br>
+					Classes*v2 - 2.8.x - Sakai 2.8.x (Kernel 1.2.7)- Server classesv2-marius-2
+				</div>
+				<!-- yale Google analytics test-server Id:UA-35234461-1  and prod id as shown below-->
+                <!-- div>
+                        <script type="text/javascript">
+                                  var _gaq = _gaq || [];
+                                  _gaq.push(['_setAccount', 'UA-23717644-1']);
+                                  _gaq.push(['_trackPageview']);
+
+                                  (function() {
+                                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                                  })();
+                        </script>
+                </div -->
+			<!-- end of yale Google analytics -->	
+			</div>
+					</div>
+					<!-- end includePageBody -->
+<!-- END from includePageBody.vm -->
+	</div>
+<!-- END from includePageWithNav.vm -->
+
+	</div>
+	
+</div>
+<!-- end includeSiteNav -->
+<!-- end site.vm -->
+<script type="text/javascript">
+  function displayAlert(content, cls){
+        var im = jQuery("iframe").contents().find("#alertMessage");
+        
+        var ct  = jQuery("iframe").contents().find("#alert");
+	     jQuery(im).css('display', 'block');
+	     jQuery(ct).html(content);
+  }
+  
+  function setAlert(){
+    var content = "";
+   jQuery.getJSON('/cmi/cmi2', function(data) {
+      try{
+     	content=data.text;
+     	}
+     	catch(error){}
+      if (content){
+        displayAlert(content, "alert1");
+      }
+      else {
+	        jQuery.getJSON('/cmi/cmi2?t=1', function(data) {
+	       try{
+	     	content=data.text;
+	     	}
+	     	catch(error){}
+	     	if (content){
+	     	 displayAlert(content, "alert2");
+	     	}
+          });
+       }
+   
+     	
+   }); 
+  
+  
+   
+ }
+</script>
+<script type="text/javascript">
+
+function  showOrHideNextSemester()
+{
+  	var nextSem = jQuery('#next-course-site-header-value').text();
+  	if (nextSem){
+  		if (nextSem.indexOf("{0}")>=0){
+
+  		   jQuery('#next-course-site-header-value').css('background-color', '#A3C4E3 !important').css('border-bottom', '0').hide();
+  		   jQuery('#cu-my-courses-child').hide();
+  		}
+  	}
+}
+
+  var content="";
+	  var alerted = "true";
+	   var d = new Date ();
+ jQuery(function (){
+     //yale setTimeout("hideFirst()", 1);
+     hideHelpLinkInMyworkspace (); 
+    
+     showOrHideNextSemester();
+     
+	  jQuery.getJSON('/cmi/cmi2?t=2&w='+d.getTime(), function(data) {
+	
+      try{
+     	content=data.text;
+     	alerted = data.alerted;
+     	
+     	}
+     	catch(error){}
+        if (content && alerted=="false"){
+     	   workspaceAlerted = true;
+     	 
+     	   parent.jQuery('.siteNavWrap').css('z-index',1000);
+	       jQuery("#innerAlertMessage").fancybox({'hideOnContentClick': false,   'modal':'true',  'zoomSpeedIn': 300, 'padding':0, 'margin':0, 'zoomSpeedOut': 300, 'overlayShow': true , 'scrolling': 'no', 'width':'100%'}).trigger('click');
+	       
+	     }
+	     else{
+	      jQuery('#siteLinkList li').css("z-index", "0");
+	     }
+	  });
+	 
+  } );  
+</script>
+	
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div></body></html>
